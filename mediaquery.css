@@ -1,0 +1,122 @@
+@media screen and (min-width: 300px) and (max-width: 800px) {
+
+    /* Global Styles */
+    .container {
+        padding: 10px;
+    }
+
+    /* Navbar Styles */
+    .navbar {
+        padding: 5px 10px;
+    }
+
+    .navbar-toggler {
+        display: block;
+        width: 30px;
+        height: 30px;
+        background-color: black;
+    }
+
+    .navbar-collapse {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar-collapse.active {
+        display: flex;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .nav-item {
+        margin: 5px 0;
+    }
+
+    .nav-link {
+        padding: 3px 5px;
+    }
+
+    /* Jumbotron Styles */
+    .jumbotron {
+        height: 400px;
+    }
+    .jumbotron img{
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .overlay-text {
+        width: 70%;
+        top: 5%;
+        left: 15%;
+    }
+
+    .overlay-text h2 {
+        font-size: 18px;
+    }
+
+    .overlay-text p {
+        font-size: 14px;
+    }
+
+    /* About Section */
+    .about-section {
+        padding: 25px 0;
+    }
+
+    .about-section .container {
+        height: auto;
+        padding: 10px;
+    }
+
+    .col-md-6 {
+        flex: 0 0 100%;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .about-img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* Card Styles */
+    .container-card h1 {
+        padding: 10px;
+    }
+
+    .col-md-4 {
+        flex: 1 1 100%;
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+    /* Testimonials */
+    .testimonial-slider {
+        max-width: 80%;
+    }
+
+    /* Footer */
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    /* Images */
+    img {
+        max-width: 100%;
+    }
+}
